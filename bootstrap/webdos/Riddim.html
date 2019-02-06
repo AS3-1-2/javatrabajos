@@ -12,11 +12,11 @@
 
     <style>
     body {
-      background-color: white;
+      background-color: black;
       background-repeat: no-repeat;
 
       /* The image used */
-      background-image: url("riddimportada.jpg");
+      
       width:100%;
       /* Full height */
       height: 100%;
@@ -48,6 +48,9 @@
       color:black;
       text-align: center;
     }
+    h5 {
+      color: red;
+    }
     .button1 {
         text-align: center; 
     }
@@ -59,24 +62,22 @@
 
 
     body, html {
-  height: 100%;
+  height: 90%;
+
 }
-  .bg {
-    /* The image used */
-    background-image: url("riddimportada.jpg");
-    width:100%;
-    /* Full height */
-    height: 100%;
+  .center {
+  display: block;
+  margin: auto;
+}  
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 40% 70%;
-    background-position:top;
-    margin: 0;
+  @media (max-width : 414px) {
+
+      .center {
+  display: block;
+  margin: auto;
+  width:100%;
+  }  
 }
-
-
 
 
 
@@ -93,21 +94,17 @@
 
 <body>
 
-    <div class="media">
-        <img class="d-flex mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="Generic placeholder image">
-        <div class="media-body">
-          <h5 class="mt-0 font-weight-bold">Media heading</h5>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-          vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-          congue felis in faucibus.
-        </div>
-      </div>
+
 
 <div class="bg"></div>
-<hr/>
+<div class="text-center">
+    <img src="riddimportada.jpg" class="center"  alt="ad">
+</div>
+<pre>
 
-<h4>Whats the Riddim?</h4>
 
+<h5>Whats the Riddim?</h5>
+</pre>
 <p class="py-5 text-center">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
     
 <p>Hola</p>
@@ -118,6 +115,16 @@
     Your browser does not support the audio element.
 </audio>
 </pre>
+
+<div class="media">
+    <img class="d-flex mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 font-weight-bold">Media heading</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+      vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+      congue felis in faucibus.
+    </div>
+  </div>
 </body>
 
 
