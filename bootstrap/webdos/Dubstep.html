@@ -109,11 +109,11 @@
 } 
 
     th {
-      text-align: center;
+      text-align: left;
       color: red;
     }
     td {
-      text-align: center;
+      text-align: left;
       color:gray;
       
     }
@@ -184,8 +184,52 @@
       text-align: center;
 
     }
-    
+
+    /* unvisited link */
+    a:link {
+    color: red;
+    }
+ /* visited link */
+a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+a:hover {
+  color: whitesmoke;
+}
+
+/* selected link */
+a:active {
+  color: rgb(69, 95, 102);
+}
+
+
+/*https://mdbootstrap.com/docs/jquery/content/icons-list/*/
+/*https://www.w3schools.com/icons/default.asp*/
+/*https://www.w3schools.com/icons/tryit.asp?icon=far_fa-play-circle&unicon=f144*/
+
+
+
+
+.table-wrapper-scroll-y {
+background-color: black;
+max-height: 250px;
+overflow-y: auto;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+width: 100%;
+}
+
+
+
+
+
+
+
 </style>
+
+
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
 </head>
 
@@ -236,6 +280,53 @@ Well...Try not to headbang.</p></pre>
     </div>
   </li>
 </ul>
+<pre>
+<hr/>
+</pre>
+
+
+<div class="table-wrapper-scroll-y">
+  <table class="table">
+    <thead>
+      <tr style="background-color: rgb(69, 95, 102)" class="table">
+        <th scope="col" class="si">#</th>
+        <th scope="col">Title</th>
+        <th scope="col">Play</th>
+      </tr>
+      
+    </thead>
+    <tbody class="table-wrapper-scroll-y">
+      <tr>
+        <th scope="row">1</th>
+        <td><a href="https://soundcloud.com/stream">AFK X Carbin - Boss (ft Cody Ray)</a></td>
+        <td><i class="far fa-play-circle" style="color:whitesmoke;font-size:24px"></i></td>      
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><a href="https:google.com">DEAZY - Cranium</a></td>
+        <td><i class="far fa-play-circle" style="color:whitesmoke;font-size:24px"></i></td>      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>DansDemand - Silent</td>
+        <td><i class="far fa-play-circle" style="color:whitesmoke;font-size:24px"></i></td>      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>DEAZY - Cranium</td>
+        <td><i class="far fa-play-circle" style="color:whitesmoke;font-size:24px"></i></td>      </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>DEAZY - Cranium</td>
+          <td><i class="far fa-play-circle" style="color:whitesmoke;font-size:24px"></i></td>      </tr>
+      <tr>
+          <th scope="row">2</th>
+          <td>DEAZY - Cranium</td>
+          <td><i class="far fa-play-circle" style="color:whitesmoke;font-size:24px"></i></td>      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<pre>
 
 
 
@@ -243,6 +334,64 @@ Well...Try not to headbang.</p></pre>
 
 
 
+
+
+
+
+
+
+
+<div class="table-wrapper-scroll-y">
+
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  
+  </div>
+</pre>
 
 <pre>
 
