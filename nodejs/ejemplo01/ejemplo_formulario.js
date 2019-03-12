@@ -17,6 +17,9 @@ z = Math.floor(Math.random() * 51)
 console.log("El valor de z es: " + z)
 
 
+
+
+// https://www.w3schools.com/js/js_if_else.asp
 if (z > 10) {
     //true
     console.log("es mayor que 10s")
