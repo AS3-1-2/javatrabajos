@@ -19,5 +19,9 @@ z = x + y;
 
 if (z > 10) {
     //true
-    console.log("es mayor que 10")
-}
+    console.log("es mayor que 10s")
+} else if (z < 10) {
+    //true
+    console.log("es menor que 10")
+} else {
+    ("es igual a 10")}
