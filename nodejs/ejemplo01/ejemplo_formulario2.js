@@ -17,6 +17,7 @@ z = Math.floor(Math.random() * 51)
 console.log("El valor de z es: " + z)
 
 
+// ahora, repetir hasta que z == 10
 
 z = 0;
 while (z != 10) {
