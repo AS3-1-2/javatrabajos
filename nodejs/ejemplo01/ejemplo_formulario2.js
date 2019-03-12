@@ -18,7 +18,7 @@ console.log("El valor de z es: " + z)
 
 
 
-z = -1;
+z = 0;
 while (z != 10) {
     z = Math.floor(Math.random() * 51)
     console.log("el valor de z es: " + z)
