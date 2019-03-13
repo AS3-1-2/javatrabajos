@@ -41,3 +41,10 @@ forecast_6 = [
     {dia:"Domingo", cielo:"Nublado", temperatura:13}
     {dia:"Lunes", cielo:"Lluvia", temperatura:7}
 ]
+
+console.log(tiempo[0].dia + " " + tiempo[0].cielo)
+console.log(tiempo[1].dia + " " + tiempo[0].cielo)
+console.log(tiempo[2].dia + " " + tiempo[0].cielo)
+console.log(tiempo[3].dia + " " + tiempo[0].cielo)
+console.log(tiempo[4].dia + " " + tiempo[0].cielo)
+console.log(tiempo[5].dia + " " + tiempo[0].cielo)
