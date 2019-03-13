@@ -30,3 +30,14 @@ jueves = {soleado, temperatura:19}
 viernes = {soleado, temperatura:15}
 sabado = {nublado, temperatura:9}
 domingo = {lluvia, temperatura:10}
+
+
+
+forecast_6 = [
+    {dia:"Miércoles", cielo:"Lluvia", temperatura:"8"}
+    {dia:"Jueves", cielo:"Nublado", temperatura:"8"}
+    {dia:"Viernes", cielo:"Soleado", temperatura:"14"}
+    {dia:"Sábado", cielo:"Nublado", temperatura:"12"}
+    {dia:"Domingo", cielo:"Nublado", temperatura:"13"}
+    {dia:"Lunes", cielo:"Lluvia", temperatura:"7"}
+]
