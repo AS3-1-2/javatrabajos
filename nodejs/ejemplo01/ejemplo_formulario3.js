@@ -25,8 +25,8 @@ nube: http://www.euskalmet.euskadi.eus/appcont/meteorologia/meteodat/images/12.p
 
 
 tiempo = []
-miercoles = [chubascos]
-jueves = [nublado]
-viernes = [soleado]
-sabado = [nublado]
-domingo = [lluvia_agresiva]
+miercoles = {chubascos, temperatura:11}
+jueves = {soleado, temperatura:19}
+viernes = {soleado, temperatura:15}
+sabado = {nublado, temperatura:9}
+domingo = {lluvia, temperatura:10}
