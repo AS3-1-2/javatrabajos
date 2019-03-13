@@ -22,3 +22,11 @@ Crear una página HTML con los datos anteriores usando las imágenes (sol, nubes
 nube: http://www.euskalmet.euskadi.eus/appcont/meteorologia/meteodat/images/12.png
 ...
 */
+
+
+tiempo = []
+miercoles = [chubascos]
+jueves = [nublado]
+viernes = [soleado]
+sabado = [nublado]
+domingo = [lluvia_agresiva]
