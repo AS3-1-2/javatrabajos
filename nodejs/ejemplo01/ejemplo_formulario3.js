@@ -47,13 +47,27 @@ forecast_6 = [
 var i;
 for (i=0; i < tiempo.length; i++) {
     //console.log(i)
-    console.log(tiempo[i].dia + " " + tiempo[i].cielo)
+    if (tiempo[i].cielo == "Lluvia"){
+    console.log(tiempo[i].Dia + " " + tiempo[i].cielo + " " + tiempo[i].Temperatura)
 }
-
+}
 
 /*
 solo imprimir los días de lluvia.
 */
+
+
+
+
+tiempo = [
+    {dia: "miercoles", cielo: "lluvia", temperatura:12},
+    {dia: "jueves", cielo: "nublado", temperatura:12},
+    {dia: "miercoles", cielo: "lluvia", temperatura:12},
+    {dia: "miercoles", cielo: "", temperatura:12},
+    {dia: "miercoles", cielo: "", temperatura:12},
+    {dia: "miercoles", cielo: "", temperatura:12},
+    {dia: "miercoles", cielo: "", temperatura:12},
+]
 
 
 console.log(tiempo[0].dia + " " + tiempo[0].cielo)
