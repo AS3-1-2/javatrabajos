@@ -47,8 +47,8 @@ forecast_6 = [
 var i;
 for (i=0; i < tiempo.length; i++) {
     //console.log(i)
-    if (tiempo[i].cielo == "Lluvia"){
-    console.log(tiempo[i].Dia + " " + tiempo[i].cielo + " " + tiempo[i].Temperatura)
+    if (tiempo[i].cielo == "Lluvia") {
+    console.log(tiempo[i].dia + " " + tiempo[i].cielo + " " + tiempo[i].temperatura)
 }
 }
 
@@ -57,7 +57,7 @@ solo imprimir los días de lluvia.
 */
 
 
-
+/*
 
 tiempo = [
     {dia: "miercoles", cielo: "lluvia", temperatura:12},
@@ -76,3 +76,4 @@ console.log(tiempo[2].dia + " " + tiempo[0].cielo)
 console.log(tiempo[3].dia + " " + tiempo[0].cielo)
 console.log(tiempo[4].dia + " " + tiempo[0].cielo)
 console.log(tiempo[5].dia + " " + tiempo[0].cielo)
+*/
