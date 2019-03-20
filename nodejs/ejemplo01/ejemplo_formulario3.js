@@ -24,32 +24,23 @@ nube: http://www.euskalmet.euskadi.eus/appcont/meteorologia/meteodat/images/12.p
 */
 
 
-tiempo = []
-miercoles = {chubascos, temperatura:11}
-jueves = {soleado, temperatura:19}
-viernes = {soleado, temperatura:15}
-sabado = {nublado, temperatura:9}
-domingo = {lluvia, temperatura:10}
+tiempo = [
 
-
-
-forecast_6 = [
-    {dia:"Miércoles", cielo:"Lluvia", temperatura:8}
-    {dia:"Jueves", cielo:"Nublado", temperatura:8}
-    {dia:"Viernes", cielo:"Soleado", temperatura:14}
-    {dia:"Sábado", cielo:"Nublado", temperatura:12}
-    {dia:"Domingo", cielo:"Nublado", temperatura:13}
+    {dia:"Miércoles", cielo:"Lluvia", temperatura:8},
+    {dia:"Jueves", cielo:"Nublado", temperatura:8},
+    {dia:"Viernes", cielo:"Soleado", temperatura:14},
+    {dia:"Sábado", cielo:"Nublado", temperatura:12},
+    {dia:"Domingo", cielo:"Nublado", temperatura:13},
     {dia:"Lunes", cielo:"Lluvia", temperatura:7}
 ]
 
 
 
 var i;
-for (i=0; i < tiempo.length; i++) {
+for (i = 0; i < tiempo.length; i++) {
     //console.log(i)
-    if (tiempo[i].cielo == "Lluvia") {
-    console.log(tiempo[i].dia + " " + tiempo[i].cielo + " " + tiempo[i].temperatura)
-}
+    if (tiempo[i].cielo == "Lluvia", tiempo [i].temperatura == "13") {
+    console.log(tiempo[i].dia + " " + tiempo[i].cielo + " " + tiempo[i].temperatura)}
 }
 
 /*
