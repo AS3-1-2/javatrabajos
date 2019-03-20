@@ -42,6 +42,13 @@ forecast_6 = [
     {dia:"Lunes", cielo:"Lluvia", temperatura:7}
 ]
 
+var i;
+for (i=0; i < tiempo.length; i++) {
+    //console.log(i)
+    console.log(tiempo[i].dia + " " + tiempo[i].cielo)
+}
+
+
 console.log(tiempo[0].dia + " " + tiempo[0].cielo)
 console.log(tiempo[1].dia + " " + tiempo[0].cielo)
 console.log(tiempo[2].dia + " " + tiempo[0].cielo)
