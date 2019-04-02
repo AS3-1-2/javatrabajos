@@ -20,7 +20,7 @@ tiempo = [
 ]
 
 app.get('/web', function(req, res){
-  res.send(tiempo[1]);
+  res.send(tiempo[2]);
   });
 
 
