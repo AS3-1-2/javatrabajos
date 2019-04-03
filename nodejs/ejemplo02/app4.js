@@ -34,7 +34,7 @@ app.get('/', function (req, res) {
   //console.log("Días lluviosos:")
   for (var i = 0; i < tiempo.length; i++) { 
       //console.log(i)
-      if (tiempo[i].tiempo == "lluvia") {
+      if (tiempo[i].cielo == "lluvia") {
           //console.log(tiempo[i].dia + " " + tiempo[i].cielo)
           //console.log(tiempo[i].dia)
           r[r.length]=tiempo[i].dia
