@@ -24,7 +24,7 @@ tiempo = [
 
 app.get('/',function(req,res) {
   //res.sendFile(__dirname + '/tiempo.html');
-  res.redirect('tiempo.html');
+  res.redirect('euskalmet.html');
 });
 
 app.get('/datuak', function (req, res) {
