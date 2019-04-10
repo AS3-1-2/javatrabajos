@@ -28,6 +28,8 @@ tiempo = [
 ]
 
 app.get('/', function (req, res) {
+  res.sendfile(__dirname + 'euskalmet-html')
+});
 
   
   var r = [];
